@@ -1,0 +1,3 @@
+oauth_token: "changeme"
+project_working_directory: "/usr/projects/org_project_dir"
+github_organisation_name: "life_universe_everything"
