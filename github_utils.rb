@@ -28,7 +28,7 @@ repos.each do |repo|
   else
     p "Cloning #{name}"
     Dir.chdir org_dir
-    'git clone #{ssh_url}'
+    `git clone #{ssh_url}`
   end
 end
 
